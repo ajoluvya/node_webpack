@@ -1,0 +1,36 @@
+{
+  "name": "nodejs_webpack",
+  "version": "1.0.0",
+  "keywords": [
+    "util",
+    "functional",
+    "server",
+    "client",
+    "browser"
+  ],
+  "author": "Allan J. Odeke",
+  "contributors": [],
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^2.1.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.31.0",
+    "ws": "3.3.2"
+  },
+  "description": "Trying out NodeJs and Webpack",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "build:prod": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ajoluvya@github.com/ajoluvya/node_webpack.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajoluvya/node_webpack/issues"
+  },
+  "homepage": "https://github.com/ajoluvya/node_webpack#readme"
+}
